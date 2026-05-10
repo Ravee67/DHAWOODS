@@ -96,7 +96,7 @@ const Home = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="text-2xl sm:text-3xl text-text-secondary leading-relaxed font-normal mb-6 text-center px-10"
+            className="text-base sm:text-lg md:text-xl font-normal text-left sm:text-center text-text-secondary leading-7 sm:leading-relaxed px-4 sm:px-8 md:px-10 mb-4"
           >
             Welcome to Dhawoods Biriyani – the destination for food lovers searching for the Best Biryani in Chennai and the Best Restaurant in ECR. Located on the vibrant East Coast Road, Dhawoods Biriyani brings together authentic flavors, premium ingredients, and a memorable dining experience for families, friends, and travelers exploring ECR Chennai.
           </motion.p>
@@ -104,7 +104,7 @@ const Home = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="text-2xl sm:text-3xl text-text-secondary leading-relaxed font-normal mb-0 pb-0 text-center px-10"
+            className="text-base sm:text-lg md:text-xl font-normal text-left sm:text-center text-text-secondary leading-7 sm:leading-relaxed px-4 sm:px-8 md:px-10 mb-0 pb-0"
           >
             Our signature biryani is prepared using aromatic basmati rice, handpicked spices, and perfectly marinated meat cooked in traditional dum style for rich taste and irresistible aroma. From juicy chicken biryani and flavorful mutton biryani to delicious grills, kebabs, tandoori dishes, seafood specialties, and Chinese favorites, every dish is crafted to satisfy true food cravings.
           </motion.p>
