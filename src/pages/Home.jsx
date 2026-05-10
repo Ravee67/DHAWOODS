@@ -89,9 +89,9 @@ const Home = () => {
       </section>
 
       {/* SEO Text Block */}
-      <section className="section-padding pb-0 bg-white relative overflow-hidden">
+      <section className="bg-white relative overflow-hidden mb-0 pb-0 py-0">
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-orange/20 to-transparent"></div>
-        <div className="max-w-5xl mx-auto container-px text-center">
+        <div className="max-w-5xl mx-auto container-px text-center mb-0 pb-0">
           <motion.p 
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
