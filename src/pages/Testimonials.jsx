@@ -10,8 +10,9 @@ const Testimonials = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-playfair font-bold text-brand-orange mb-8">
             Guest Experiences
           </h1>
+          <p className="text-brand-orange font-poppins font-black text-base tracking-widest uppercase mb-4 opacity-80">Since 1994</p>
           <p className="text-text-secondary text-lg sm:text-xl md:text-2xl font-medium leading-relaxed opacity-80">
-            At Dhawood's Briyani, we take immense pride in the smiles we create. Read what our valued guests have to say about our firewood briyanis, grilled delights, and our service at ECR Panaiyur, Chennai.
+            At DHAWOODS BIRIYANI, we take immense pride in the smiles we create. Read what our valued guests have to say about our firewood biryanis, grilled delights, and our service at ECR Panaiyur, Chennai.
           </p>
         </div>
       </div>
@@ -24,7 +25,7 @@ const Testimonials = () => {
         <div className="max-w-4xl mx-auto text-center container-px">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-playfair font-bold text-text-primary mb-12">Share Your Experience</h2>
           <p className="text-lg sm:text-xl md:text-2xl text-text-secondary mb-16 leading-relaxed font-medium">
-            Had a great time at Dhawood's? We'd love to hear from you! Your feedback helps us maintain our firewood legacy and serve you better.
+            Had a great time at DHAWOODS BIRIYANI? We'd love to hear from you! Your feedback helps us maintain our firewood legacy and serve you better.
           </p>
           <a 
             href="https://www.google.com/search?q=dhawoods+biriyani+ecr#lrd=0x3a525b4bcc0520df:0xeffd5547106b22a1,3" 

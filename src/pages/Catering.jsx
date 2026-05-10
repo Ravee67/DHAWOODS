@@ -29,6 +29,7 @@ const Catering = () => {
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-playfair font-bold text-brand-orange mb-6 tracking-tight">
             Grand Catering
           </h1>
+          <p className="text-brand-orange font-poppins font-black text-base tracking-widest uppercase mb-4 opacity-80">Since 1994</p>
           <p className="text-text-secondary text-lg sm:text-xl md:text-2xl font-medium leading-relaxed opacity-80">
             Dhawood's Briyani offers premium catering services across Chennai for weddings, private parties, corporate lunches, and large gatherings. Our firewood-style briyanis and BBQ platters are a guaranteed crowd-pleaser.
           </p>

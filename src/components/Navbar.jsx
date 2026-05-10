@@ -47,13 +47,13 @@ const Navbar = () => {
         <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', flexShrink: 0 }}>
           <img 
             src="/logo.png" 
-            alt="Dhawood's Briyani Logo" 
+            alt="DHAWOODS BIRIYANI Logo" 
             style={{ height: '40px', width: 'auto' }}
             className="lg:h-12"
             onError={(e) => { e.target.style.display = 'none'; }}
           />
           <h1 className="font-poppins font-black text-white uppercase tracking-wide text-xl lg:text-2xl" style={{ margin: 0, textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>
-            Dhawood's Briyani
+            DHAWOODS BIRIYANI
           </h1>
         </Link>
 

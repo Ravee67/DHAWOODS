@@ -38,6 +38,7 @@ const OrderNow = () => {
           >
             Order Online
           </motion.h1>
+          <p className="text-brand-orange font-poppins font-black text-base tracking-widest uppercase mb-4 opacity-80">Since 1994</p>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

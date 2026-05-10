@@ -26,10 +26,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-gray-700 pb-10">
         {/* Brand Section */}
         <div className="space-y-4">
-          <h2 className="text-3xl font-playfair font-bold" style={{ color: '#FFD700' }}>Dhawood's Briyani</h2>
+          <h2 className="text-3xl font-playfair font-bold" style={{ color: '#FFD700' }}>DHAWOODS BIRIYANI</h2>
           <div className="text-sm font-poppins space-y-1">
             <p className="text-gray-300">Firewood Cooking Style</p>
-            <p className="text-gray-300 italic">Bhai Briyani</p>
+            <p className="text-gray-300 italic">Since 1994 — Bhai Briyani</p>
           </div>
           <div className="flex space-x-4 pt-2">
             <a href="https://www.instagram.com/dhawoodsbiriyani/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange transition-colors">
@@ -77,7 +77,7 @@ const Footer = () => {
       </div>
       
       <div className="max-w-7xl mx-auto text-center pt-8 text-gray-500 text-xs">
-        &copy; {new Date().getFullYear()} Dhawood's Briyani. All rights reserved.
+        &copy; {new Date().getFullYear()} DHAWOODS BIRIYANI. All rights reserved.
       </div>
     </footer>
   );

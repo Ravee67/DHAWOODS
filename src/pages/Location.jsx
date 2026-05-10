@@ -12,6 +12,7 @@ const Location = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-playfair font-bold text-brand-orange mb-8">
             Find Us
           </h1>
+          <p className="text-brand-orange font-poppins font-black text-base tracking-widest uppercase mb-4 opacity-80">Since 1994</p>
           <p className="text-text-secondary text-lg sm:text-xl md:text-2xl font-medium leading-relaxed opacity-80">
             Visit us at the French Village Food Court, East Coast Road. Experience the unique charm of ECR while savoring Chennai's most authentic firewood-cooked briyani. Ample parking, great atmosphere, and unbeatable taste await you.
           </p>
@@ -66,7 +67,7 @@ const Location = () => {
           <div className="relative h-[60vh] rounded-[3rem] overflow-hidden shadow-2xl premium-shadow group">
             <img 
               src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop" 
-              alt="Dhawood's Briyani restaurant location ECR Chennai" 
+              alt="DHAWOODS BIRIYANI restaurant location ECR Chennai" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               loading="lazy"
               onError={(e) => {

@@ -8,7 +8,7 @@ const Home = () => {
     {
       name: "Chicken Briyani",
       img: "/images/chicken_briyani.jpg",
-      alt: "Premium Firewood Chicken Briyani - Signature slow-cooked briyani with tender chicken and aromatic spices at Dhawood's"
+      alt: "Premium Firewood Chicken Biryani - Signature slow-cooked biryani with tender chicken and aromatic spices at DHAWOODS BIRIYANI"
     },
     {
       name: "Mutton Briyani",
@@ -18,12 +18,12 @@ const Home = () => {
     {
       name: "Grill Chicken Full",
       img: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?q=80&w=2000&auto=format&fit=crop",
-      alt: "Juicy Grilled Chicken Full - Flame-grilled over firewood with secret spice rub at Dhawood's Restaurant Chennai"
+      alt: "Juicy Grilled Chicken Full - Flame-grilled over firewood with secret spice rub at DHAWOODS BIRIYANI Restaurant Chennai"
     },
     {
       name: "Shawarma Roll",
       img: "/images/shawarma_combo.jpg",
-      alt: "Authentic Chicken Shawarma Roll - Freshly grilled meat with signature garlic sauce at Dhawood's Briyani"
+      alt: "Authentic Chicken Shawarma Roll - Freshly grilled meat with signature garlic sauce at DHAWOODS BIRIYANI"
     },
     {
       name: "Chicken 65 Briyani",
@@ -39,7 +39,7 @@ const Home = () => {
         <div className="absolute inset-0 pointer-events-none scale-105">
            <img
              src="/images/dhawoods-briyani-authentic-tamil-nadu-firewood-briyani-ecr-chennai-hero.webp"
-             alt="Dhawood's Briyani - Authentic Tamil Nadu Firewood Briyani served on Banana Leaf ECR Chennai"
+             alt="DHAWOODS BIRIYANI - Authentic Tamil Nadu Firewood Biryani served on Banana Leaf ECR Chennai"
              className="w-full h-full object-cover opacity-40"
              loading="eager"
              fetchPriority="high"
@@ -58,7 +58,7 @@ const Home = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-playfair font-black text-brand-orange mb-8 tracking-tighter leading-tight drop-shadow-2xl"
           >
-            Dhawood's Briyani
+            DHAWOODS BIRIYANI
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -66,7 +66,7 @@ const Home = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-lg sm:text-2xl md:text-3xl text-text-secondary font-medium mb-16 max-w-3xl mx-auto leading-relaxed opacity-90"
           >
-            Experience the Legend of Authentic Firewood Briyani on ECR Chennai
+            The Best Biryani in Chennai & Best Restaurant on ECR — East Coast Road, Chennai
           </motion.p>
           
           <motion.div 
@@ -89,16 +89,24 @@ const Home = () => {
       </section>
 
       {/* SEO Text Block */}
-      <section className="section-padding bg-white relative overflow-hidden">
+      <section className="section-padding pb-0 bg-white relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-orange/20 to-transparent"></div>
         <div className="max-w-5xl mx-auto container-px text-center">
           <motion.p 
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="text-xl sm:text-2xl md:text-3xl text-text-secondary leading-loose font-medium italic opacity-95 tracking-wide"
+            className="text-2xl sm:text-3xl text-text-secondary leading-relaxed font-normal mb-6 text-center px-10"
           >
-            "Welcome to Dhawood's Briyani — Chennai's most loved firewood briyani restaurant on East Coast Road. Savor the rich aroma of slow-cooked Chicken and Mutton Briyani, grilled BBQ delights, and fresh Kunafa. Every grain of rice tells a story of tradition."
+            Welcome to Dhawoods Biriyani – the destination for food lovers searching for the Best Biryani in Chennai and the Best Restaurant in ECR. Located on the vibrant East Coast Road, Dhawoods Biriyani brings together authentic flavors, premium ingredients, and a memorable dining experience for families, friends, and travelers exploring ECR Chennai.
+          </motion.p>
+          <motion.p 
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="text-2xl sm:text-3xl text-text-secondary leading-relaxed font-normal mb-0 pb-0 text-center px-10"
+          >
+            Our signature biryani is prepared using aromatic basmati rice, handpicked spices, and perfectly marinated meat cooked in traditional dum style for rich taste and irresistible aroma. From juicy chicken biryani and flavorful mutton biryani to delicious grills, kebabs, tandoori dishes, seafood specialties, and Chinese favorites, every dish is crafted to satisfy true food cravings.
           </motion.p>
         </div>
       </section>

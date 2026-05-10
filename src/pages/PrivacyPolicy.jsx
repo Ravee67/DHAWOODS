@@ -8,6 +8,7 @@ const PrivacyPolicy = () => {
           <h1 className="text-5xl md:text-7xl font-playfair font-bold text-brand-orange mb-6">
             Privacy Policy
           </h1>
+          <p className="text-brand-orange font-poppins font-black text-base tracking-widest uppercase mb-4 opacity-80">Since 1994</p>
           <p className="text-text-secondary text-xl font-medium opacity-80">
             Last updated: {new Date().toLocaleDateString()}
           </p>

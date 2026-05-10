@@ -2,7 +2,7 @@ export const menuData = [
   {
     category: "GRILL & BBQ",
     image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=2000&auto=format&fit=crop",
-    alt: "Premium Smoky Grilled Chicken and BBQ Platter - Flame-grilled to perfection with traditional spices at Dhawood's Briyani Chennai",
+    alt: "Premium Smoky Grilled Chicken and BBQ Platter - Flame-grilled to perfection with traditional spices at DHAWOODS BIRIYANI Chennai",
     items: [
       { name: "Grill Chicken Full", price: "₹440" },
       { name: "Grill Chicken Half", price: "₹270" },
@@ -80,7 +80,7 @@ export const menuData = [
   {
     category: "COMBO PACK",
     image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2000&auto=format&fit=crop",
-    alt: "Value Briyani Combo Packs - Complete meal sets with chicken briyani, starters, and drinks at Dhawood's Briyani",
+    alt: "Value Briyani Combo Packs - Complete meal sets with chicken biryani, starters, and drinks at DHAWOODS BIRIYANI",
     items: [
       { name: "Chicken Briyani Pack (Serves 1)", price: "₹369", desc: "Chicken briyani, 1 egg, Chicken 65 (3 pcs), Pepsi 250ml" },
       { name: "Chicken Briyani Pack (Serves 2)", price: "₹649", desc: "Chicken briyani, 2 eggs, Chicken 65 (3 pcs), Chicken Lollipop (3 pcs), Pepsi 600ml" },
@@ -90,7 +90,7 @@ export const menuData = [
   {
     category: "DESSERTS & SWEETS",
     image: "https://images.unsplash.com/photo-1589119908995-c6837fa14848?q=80&w=2000&auto=format&fit=crop",
-    alt: "Traditional Indian Desserts - Fresh Bread Halwa and sweet delights at Dhawood's Briyani ECR",
+    alt: "Traditional Indian Desserts - Fresh Bread Halwa and sweet delights at DHAWOODS BIRIYANI ECR",
     items: [
       { name: "Bread Halwa (100 ml)", price: "₹70" },
       { name: "Bread Halwa (250 ml)", price: "₹150" },

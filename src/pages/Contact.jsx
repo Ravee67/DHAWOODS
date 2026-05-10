@@ -19,6 +19,7 @@ const Contact = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-playfair font-bold text-brand-orange mb-8">
             Contact Us
           </h1>
+          <p className="text-brand-orange font-poppins font-black text-base tracking-widest uppercase mb-4 opacity-80">Since 1994</p>
           <p className="text-text-secondary text-lg sm:text-xl md:text-2xl font-medium leading-relaxed opacity-80">
             Get in touch with Dhawood's Briyani for orders, catering inquiries, table reservations, or general questions. We're located at French Village Food Court on East Coast Road, Chennai. Call us, WhatsApp us, or find us on the map — we're always happy to serve you.
           </p>
